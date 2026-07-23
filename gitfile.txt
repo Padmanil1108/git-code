@@ -1,1 +1,14 @@
-gementls – Lists all files and folders in your current directory.cd – Changes your working directory to a specified path.pwd – Prints the absolute path of your current directory.mkdir – Creates a new folder or directory.rmdir – Removes an empty dir
+Text Processing and Viewing
+
+
+
+
+cat – Displays, combines, and writes text to files.
+less – Views file contents one page at a time.
+head – Displays the first 10 lines of a file.
+tail – Displays the last 10 lines of a file.
+grep – Searches for a specific text pattern within files.
+nano / vim – Terminal-based text editors for modifying configuration files.
+awk / sed – Advanced tools for filtering and transforming text.
+
+wc – Counts lines, words, and byte sizes in text
