@@ -1,0 +1,11 @@
+System Information and Utilities
+
+
+
+sudo – Executes a command with elevated administrator privileges.
+
+whoami – Displays the username of the active terminal session
+uname -a – Prints detailed information about your system kernel.
+history – Shows a list of previously executed commands.
+clear – Empties the terminal screen layout.
+man – Opens the manual documentation for any given command
