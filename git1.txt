@@ -1,0 +1,50 @@
+
+setup and configuration:-
+
+git config --global user.name "Your Name": Sets your commit username.
+git config --global user.email "your@email.com": Sets your commit email address.
+git config --global --list: Verifies all saved global configurations.
+git version: Displays the currently installed version of Git
+
+
+
+
+started project:-
+git init: Initializes a brand new local Git repository.
+git clone <url>: Clones a copy of a remote GitHub repository to your computer.
+
+
+
+
+workflow Git:-
+git status: Checks the status of modified, staged, or untracked files.
+git add <file>: Stages a specific file for the next snapshot.
+git add .: Stages all new, modified, and deleted files.
+git commit -m "your message": Saves the staged snapshot permanently to local history.
+git commit -am "your message": Stages tracked files and commits them in one step
+
+
+
+Branching & Merging:-
+
+git branch: Lists all local branches; current branch has an asterisk.
+git branch -a: Lists both local and remote-tracking branches.
+git branch <branch-name>: Creates a new branch at your current commit.
+git checkout <branch-name>: Switches your working directory to the target branch.
+git checkout -b <branch-name>: Creates a brand new branch and switches to it instantly.
+git merge <branch-name>: Combines the target branch's history into your active branch.
+git branch -d <branch-name>: Deletes a local branch (fails if it has unmerged changes).
+git branch -D <branch-name>: Force-deletes a local branch even if unmerged.
+
+
+github:-
+
+git remote add origin <url>: Connects your local repository to a remote GitHub URL.
+git remote -v: Lists all remote connections alongside their fetch/push URLs.
+git push -u origin <branch-name>: Pushes a local branch to GitHub and saves it as default.
+git push: Pushes commits to the tracked remote branch.
+git fetch: Downloads history from the remote repository without altering your files.
+git pull: Downloads history from GitHub and immediately merges it into your branch.
+
+
+git push origin --delete <branch-name>: Removes a branch directly from the remote GitHub server
