@@ -1,0 +1,10 @@
+
+ls – Lists all files and folders in your current directory.
+cd – Changes your working directory to a specified path.
+pwd – Prints the absolute path of your current directory.
+mkdir – Creates a new folder or directory
+.rmdir – Removes an empty directory.
+rm – Deletes files permanently; use rm -r for directories.
+touch – Creates a blank file or updates timestamps.
+cp – Copies files or folders to a new location
+.mv – Moves or renames files and directories.

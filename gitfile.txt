@@ -1,0 +1,1 @@
+gementls – Lists all files and folders in your current directory.cd – Changes your working directory to a specified path.pwd – Prints the absolute path of your current directory.mkdir – Creates a new folder or directory.rmdir – Removes an empty dir
