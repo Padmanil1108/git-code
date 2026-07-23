@@ -1,0 +1,9 @@
+System Monitoring and Process Control
+
+
+top / htop – Provides a dynamic, live view of active processes.
+ps aux – Snapshots all processes running on the system.
+kill – Terminates a process using its Process ID (PID).
+df -h – Displays available and used disk space cleanly.
+free -m – Displays total, used, and free RAM allocations.
+systemctl – Manages background system service states (start, stop, restart)
